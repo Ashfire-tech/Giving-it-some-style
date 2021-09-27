@@ -1,0 +1,28 @@
+let quote1 = "if coder { code() }"
+let quote2 = "Relativity Rules"
+let quote3 = "Me? Sarcastic? Never."
+let quote4 = "/* No Comment */"
+let quote5 = "✸ Quasars Quake ✸"
+let quote6 = "Bits unite. Bytes rule!"
+let quote7 = "Cosmic Bus: Light years ahead!"
+let quote8 = "• Code = Poetry •"
+let graphic1 = Graphic(text: quote2)
+graphic1.fontName = .chalkduster
+graphic1.fontSize = 60
+graphic1.textColor = #colorLiteral(red: 0.5725490451, green: 0, blue: 0.2313725501, alpha: 1)
+graphic1.rotation = 10
+scene.place(graphic1, at: Point(x: -150, y: 50))
+let graphic2 = Graphic(text: quote5)
+graphic2.fontName = .menlo
+graphic2.textColor = #colorLiteral(red: 0.9023433924, green: 0.2320581675, blue: 0.4786583185, alpha: 1.0)
+graphic2.rotation = 360
+scene.place(graphic2, at: Point(x: 200, y: 90))
+let graphic3 = Graphic(text: quote3)
+graphic3.fontName = .avenirNext
+graphic3.textColor = #colorLiteral(red: 0.0, green: 0.2136589885, blue: 0.2883136272, alpha: 1.0)
+graphic3.rotation = 30
+scene.place(graphic3, at: Point(x: 70, y: 180))
+let graphic4 = Graphic(text: quote4)
+graphic4.fontName = .avenirNext
+graphic4.textColor = #colorLiteral(red: 1.0, green: 0.6663846374, blue: 0.0, alpha: 1.0)
+scene.place(graphic4, at: Point(x: 200, y: -180))
